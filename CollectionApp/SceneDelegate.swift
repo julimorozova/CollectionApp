@@ -17,9 +17,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let scene = (scene as? UIWindowScene) else { return }
 
         window = UIWindow(windowScene: scene)
-        let nc = UINavigationController(rootViewController: ViewController())
-
-        window?.rootViewController = nc
+       
+        window?.rootViewController = CustomCollectionCellViewController()
         window?.makeKeyAndVisible()
     }
 
