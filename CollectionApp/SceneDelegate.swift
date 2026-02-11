@@ -18,7 +18,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
         window = UIWindow(windowScene: scene)
        
-        window?.rootViewController = CustomCollectionCellViewController()
+        window?.rootViewController = SectionViewController()
         window?.makeKeyAndVisible()
     }
 
